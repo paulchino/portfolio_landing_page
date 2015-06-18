@@ -8,7 +8,7 @@ if(ENVIRONMENT == 'production')
 {
 	$db['default']['hostname'] = 'localhost';
 	$db['default']['username'] = 'root';
-	$db['default']['password'] = 'root';
+	$db['default']['password'] = 'yesmes';
 	$db['default']['database'] = 'ajax_notes_redux';
 }
 else

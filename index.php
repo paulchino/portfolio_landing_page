@@ -19,8 +19,17 @@
  *
  */
 	date_default_timezone_set('UTC');
-	
-	define('ENVIRONMENT', 'development');
+
+	$state = $_SERVER["HTTP_HOST"];
+
+	if (strpos($state, "local") !== false)
+	{
+		define('ENVIRONMENT', 'development');
+	}
+	else 
+	{
+		define('ENVIRONMENT', 'production');
+	}
 
 /*
  *---------------------------------------------------------------

@@ -10,15 +10,11 @@ class Main extends CI_Controller {
 
 	public function index()
 	{
-		echo base_url();
-		echo "Welcome to CodeIgniter. The default Controller is Main.php";
-		//$this->load->view("home_page");
+		//echo base_url();
+		//echo "Welcome to CodeIgniter. The default Controller is Main.php";
+		$this->load->view("home");
 	}
 
-	// public function test()
-	// {
-	// 	echo "testing";
-	// }
 }
 
 //end of main controller
