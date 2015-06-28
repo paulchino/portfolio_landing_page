@@ -12,10 +12,12 @@ class Notes extends CI_Controller {
 	public function index()
 	{
 		//echo base_url();
-		echo "this is notes page";
+		echo "this is ajax notes";
+		echo "get lets show all the data from notes table";
 		echo "Welcome to CodeIgniter. The default Controller is Main.php";
-		echo $this->note->show();
-		
+		var_dump($this->note->show());
+		die();
+
 		//var dump the data
 
 		//$this->load->view("home_page");
