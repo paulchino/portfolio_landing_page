@@ -6,23 +6,46 @@ class Notes extends CI_Controller {
 	{
 		parent::__construct();
 		$this->load->model('note');
-		//$this->output->enable_profiler();
+		// $this->output->enable_profiler();
+	}
+
+	public function index_html()
+	{
+		$this->show_partial();
 	}
 
 	public function index()
 	{
-		//echo base_url();
-		echo "this is ajax notes";
-		echo "get lets show all the data from notes table";
-		echo "Welcome to CodeIgniter. The default Controller is Main.php";
-		var_dump($this->note->show());
-		die();
-
-		//var dump the data
-
-		//$this->load->view("home_page");
+		// var_dump($this->note->show());
+		// die();
+		$this->load->view("notes");
 	}
 
+	public function create() 
+	{
+		$new_note = $this->input->post();
+		$insert = $this->note->create($new_note);
+		$this->show_partial();
+		// redirect('/');
+	}
+
+	public function delete()
+	{
+		$this->note->delete($this->input->post('id'));
+		$this->show_partial();
+	}
+
+	public function update()
+	{
+		$update = $this->note->update($this->input->post('id'), $this->input->post('description') );
+		$this->show_partial();
+	}
+
+	private function show_partial()
+	{
+		$results['all_notes'] = $this->note->show();
+		$this->load->view("partials/note_data", $results);
+	}
 }
 
 //end of main controller
