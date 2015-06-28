@@ -3,13 +3,13 @@
 ?>	
 		<div class='notes'>
 			<h4 class='inline'> <?= $notes['title'] ?></h4>
-			<form class='delete-note' action='/main/delete' method='post'>
+			<form class='delete-note' action='/notes/delete' method='post'>
 				<input type='hidden' name='id' value='<?=$notes['id'] ?>'>
 				<input type='submit' value='delete' />
 			</form>
 			<hr>
 			<div class='notes-container'>
-				<form action='main/update' method='post'>
+				<form action='notes/update' method='post'>
 					<input type='hidden' name='id' value='<?=$notes['id'] ?>'>
 					<textarea class='note-box' name='description'> <?= $notes['description'] ?></textarea>
 				</form>

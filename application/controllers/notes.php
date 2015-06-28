@@ -48,4 +48,4 @@ class Notes extends CI_Controller {
 	}
 }
 
-//end of main controller
+//end of notes controller

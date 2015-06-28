@@ -10,7 +10,7 @@
 
 $(document).ready(function() {
 	// on page load uses ajax to get all data
-	$.get('/main/index_html', function(res) {
+	$.get('/notes/index_html', function(res) {
 		$('#ajax-notes').html(res);
 	})
 })
@@ -41,7 +41,7 @@ $(document).on('change', '.note-box', function() {
 		<div id='ajax-notes'>
 		</div>
 		<div class='add-cont'>
-			<form action='/main/create' method='post'>
+			<form action='/notes/create' method='post'>
 				<h4>Title</h4>
 				<input class='add-note' name='title' type='text'>
 				<h4>Description</h4>
