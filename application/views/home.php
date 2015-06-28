@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Portfolio of Project by Paul Chang. Full stack/Front end web developer.">
+    <meta name="author" content="Paul Chang">
 
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>Paul Chang</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="/assets/css/vendor/bootstrap.min.css" rel="stylesheet">
@@ -44,7 +44,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand" href="#page-top">Paul Chang</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -74,11 +74,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="/assets/img/profile.png" alt="">
+                    <img class="img-responsive profile_pic" src="/assets/img/pchang_profile.png" alt="Paul's Profile Pic">
                     <div class="intro-text">
-                        <span class="name">Start Bootstrap</span>
+                        <span class="name">Paul Chang</span>
                         <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                        <span class="skills">Full Stack Web Developer</span>
                     </div>
                 </div>
             </div>
@@ -102,7 +102,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="/assets/img/portfolio/cabin.png" class="img-responsive" alt="">
+                        <img src="/assets/img/portfolio/gifg.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -112,7 +112,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="/assets/img/portfolio/cake.png" class="img-responsive" alt="">
+                        <img src="/assets/img/portfolio/draw_with_friends.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -246,31 +246,34 @@
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Location</h3>
-                        <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                        <p>Menlo Park, CA</p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
+                        <h3>Social Media</h3>
                         <ul class="list-inline">
-                            <li>
+<!--                             <li>
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
+                            </li> -->
+<!--                             <li>
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li> -->
+                            <li>
+                                <a href="https://twitter.com/p__chang" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/pchang1" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                                <a href="https://github.com/paulchino/" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
                             </li>
-                            <li>
+<!--                             <li>
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        <h3>About Paul</h3>
+                        <p>Self motivated software engineer seeking a position as a front end developer. Experience in building projects in multiple frameworks.</p>
                     </div>
                 </div>
             </div>
@@ -279,7 +282,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Your Website 2014
+                        Copyright &copy; pchang.co
                     </div>
                 </div>
             </div>
@@ -306,21 +309,24 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>gifG.io</h2>
                             <hr class="star-primary">
-                            <img src="/assets/img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <!-- insert image here -->
+                            <img src="/assets/img/portfolio/gifg2.png" class="img-responsive img-centered" alt="">
+                            <p>
+                                A gif search engine and gallery generator. Based on users searches a customizable gif gallery will be created. User can add additional gifs, copy, and reformat layouts to create their own gallery. A specific gallery can also be sent to friends using a permalink. The application is responsive through the use of media queries and works great on mobile. Deployed using Amazing EC2 with nginx server.
+                            </p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                <li>Technologies Used:
+                                    <strong>Giphy API | Node/Express | EJS | Packery | jQuery | Bootstrap
                                     </strong>
                                 </li>
-                                <li>Date:
+          <!--                       <li>Date:
                                     <strong><a href="http://startbootstrap.com">April 2014</a>
                                     </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                </li> -->
+                                <li>Project Link:
+                                    <strong><a href="http://www.gifg.io">gifG.io</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -343,23 +349,25 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Draw with Friends</h2>
                             <hr class="star-primary">
-                            <img src="/assets/img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="/assets/img/portfolio/draw_with_friends.png" class="img-responsive img-centered" alt="">
+                            <p>
+                                Web application where multiple users can draw together in real-time. Users can also communicate with each other through a chat box. When users are satisfied with the final product they can either email the drawings to their friends or save the drawing to the Draw with Friends Gallery. Deployed using heroku. 
+                            </p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                <li>Technologies Used:
+                                    <strong>Node/Express | EJS | Socket.io | nodeMailer | MongoDB/Mongoose | jQuery | Bootstrap
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                <li>Project Link:
+                                    <strong><a href="https://drawing-with-friends.herokuapp.com/">Draw with Friends</a>
                                     </strong>
                                 </li>
-                                <li>Service:
+<!--                                 <li>Service:
                                     <strong><a href="http://startbootstrap.com">Web Development</a>
                                     </strong>
-                                </li>
+                                </li> -->
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -491,21 +499,23 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Javascript Balls</h2>
                             <hr class="star-primary">
-                            <img src="/assets/img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="/assets/img/portfolio/js_balls.png" class="img-responsive img-centered" alt="">
+                            <p>
+                                No libraries or utility helpers. Just Pure javascript. Using object oriented programming, colorful balls are created that move and bounce off the browswer window. On collision the balls disapear.
+                            </p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                <li>Technologies Used:
+                                    <strong>Javascript
                                     </strong>
                                 </li>
-                                <li>Date:
+        <!--                         <li>Date:
                                     <strong><a href="http://startbootstrap.com">April 2014</a>
                                     </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                </li> -->
+                                <li>Project Link:
+                                    <strong><a href="#">Javascript Balls</a>
                                     </strong>
                                 </li>
                             </ul>

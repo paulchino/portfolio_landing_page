@@ -4,6 +4,12 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ /*------ PROFILE PIC---------- */
+ .profile_pic {
+    max-width: 300px;
+    height: auto;
+ }
+
 body {
     overflow-x: hidden;
 }

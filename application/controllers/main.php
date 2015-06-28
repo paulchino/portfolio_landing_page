@@ -15,6 +15,11 @@ class Main extends CI_Controller {
 		$this->load->view("home");
 	}
 
+	public function js_ball()
+	{
+		$this->load->view("js_ball");
+	}
+
 }
 
 //end of main controller

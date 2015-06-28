@@ -6,7 +6,8 @@ $active_record = TRUE;
 //how do you know if in environment
 if(ENVIRONMENT == 'production')
 {
-	$db['default']['hostname'] = 'localhost';
+	$db['default']['hostname'] = '127.0.0.1';
+	// $db['default']['hostname'] = 'localhost';
 	$db['default']['username'] = 'root';
 	$db['default']['password'] = 'yesmes';
 	$db['default']['database'] = 'ajax_notes_redux';
