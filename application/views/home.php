@@ -142,7 +142,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="/assets/img/portfolio/safe.png" class="img-responsive" alt="">
+                        <img src="/assets/img/portfolio/ajax_notes.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -170,16 +170,16 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                    <p>Self motivated software engineer seeking a position as a front end developer. Experience in building projects in multiple frameworks.</p>
                 </div>
                 <div class="col-lg-4">
                     <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
                 </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
+<!--                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="#" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> Download Theme
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -249,6 +249,29 @@
                         <p>Menlo Park, CA</p>
                     </div>
                     <div class="footer-col col-md-4">
+<!--                         <h3>Social Media</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/p__chang" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/pchang1" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/paulchino/" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul> -->
+                    </div>
+                    <div class="footer-col col-md-4">
                         <h3>Social Media</h3>
                         <ul class="list-inline">
 <!--                             <li>
@@ -270,10 +293,9 @@
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
                             </li> -->
                         </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>About Paul</h3>
-                        <p>Self motivated software engineer seeking a position as a front end developer. Experience in building projects in multiple frameworks.</p>
+
+<!--                         <h3>About Paul</h3>
+                        <p>Self motivated software engineer seeking a position as a front end developer. Experience in building projects in multiple frameworks.</p> -->
                     </div>
                 </div>
             </div>
@@ -467,12 +489,23 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Ajax Notes</h2>
                             <hr class="star-primary">
-                            <img src="/assets/img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="/assets/img/portfolio/ajax_notes.png" class="img-responsive img-centered" alt="">
+                            <p>Notes created and modified using AJAX! Add a title and description and click the 'add-note' button to add. To update the description, simply click inside the note textbox, update the text, then click outside the textbox. The note will automatically update! Uses MySQL Database.
+
+                            </p>
                             <ul class="list-inline item-details">
-                                <li>Client:
+                                <li>Technologies Used:
+                                    <strong>CodeIgniter | MySQL | jQuery | Ajax | Bootstrap
+                                    </strong>
+                                </li>
+                                <li>Project Link:
+                                    <strong><a href="http://pchang.co/notes/">Ajax Notes</a>
+                                    </strong>
+                                </li>
+
+<!--                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
                                     </strong>
                                 </li>
@@ -483,7 +516,7 @@
                                 <li>Service:
                                     <strong><a href="http://startbootstrap.com">Web Development</a>
                                     </strong>
-                                </li>
+                                </li> -->
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
