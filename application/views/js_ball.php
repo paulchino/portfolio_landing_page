@@ -3,31 +3,24 @@
 	<title>Javascript Box - OOP demo</title>
 </head>
 
-<script src="/assets/js/jquery.js"></script>
-
-<!-- tasks 
-	- minimum ball size
-	- media queries if on mobile clicking ball produced same size
-	- 50 mini for time pressed
-
- -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script> -->
+<!-- <script src="/assets/js/jquery.js"></script> -->
 <style type="text/css">
 
 	#svg {
 		height:100vh;
 		min-width: 100vw;
-		border: 1px solid black;
 		border-radius: 12px;
 	}
 
 </style>
-
 <body>
-<!-- 	<h2> Click on Screen! Hold the mouse longer for larger circles!</h2> -->
 	<svg id="svg" xmlns="http://www.w3.org/2000/svg"></svg>
+</body>
+
+
 	<script>
-	
+	alert("Click down the mouse button to create colorful circles. Hold down longer for larger cirlces!");
+
 	var time_pressed;
 
 	//action to determine record mouse time
@@ -59,10 +52,10 @@
 		function randomColor() {
 			var letters = '0123456789ABCDEF'.split('');
 			var color = '#';
-    		for (var i = 0; i < 6; i++ ) {
-        		color += letters[Math.floor(Math.random() * 16)];
-        	}
-    		return color;
+			for (var i = 0; i < 6; i++ ) {
+	    		color += letters[Math.floor(Math.random() * 16)];
+	    	}
+			return color;
 		}
 
 		function randomNumberBetween(min, max) {
@@ -144,7 +137,8 @@
 			collisions();
 		}
 
-    	function collisions() {
+		function collisions() {
+			var id_i, id_j, ele_i, ele_j;
 			for(var i = 0; i < circles.length; i++) {
 				//console.log(circles[i].info.cx);
 				for(var j = 0; j < circles.length; j++) {
@@ -152,8 +146,18 @@
 					var y = Math.pow(circles[i].info.cy-circles[j].info.cy,2);
 
 					if ( Math.sqrt(x+y) <= (circles[i].info.r + circles[j].info.r) && (i!=j) ) {
-						$("#"+circles[i].info.id).remove();
-						$("#"+circles[j].info.id).remove();
+						//
+						id_i = circles[i].info.id;
+						ele_i = document.getElementById(id_i);
+						ele_i.parentNode.removeChild(ele_i);
+
+						id_j = circles[j].info.id;
+						ele_j = document.getElementById(id_j);
+						ele_j.parentNode.removeChild(ele_j);
+
+						
+						// $("#"+circles[i].info.id).remove();
+						// $("#"+circles[j].info.id).remove();
 
 						//remove the circles from the array
 						circles.splice(i,1);
@@ -176,7 +180,6 @@
 	document.onclick = function(e) {
 		playground.createNewCircle(e.x,e.y);
 	}
-	
+
 	</script>
-</body>
 </html>

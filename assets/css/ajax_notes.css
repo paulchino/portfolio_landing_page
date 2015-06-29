@@ -1,28 +1,63 @@
-.container {
-	width: 300px;
-}
+		body {
+			background-color: #eeeeee;
+		}
 
-.inline {
-	display: inline-block;
-}
+		.delete-note {
+			display: inline;
+		}
 
-.notes-container {
-	width: 250px;
-	height: 300px;
-}
+		.margin {
+			margin: 10px;
+			border-bottom: solid 1px gray;
+		}
 
-.note-box {
-	width: 100%;
-	height: 100%;
-	border: solid gray 1px;
-}
+		.title_div {
+			border-bottom: solid 1px gray;
+			padding-bottom: 5px;
+		}
 
-.add-cont {
-	width: 100%;
-	height: 50px;
-	margin-top: 15px;
-}
+		.title {
+			display: inline-block;
+			margin-left: 10px;
+		}
 
-.add-note {
-	width: 250px;
-}
+		.color_box {
+			min-width: 250px;
+			min-height: 300px;
+			width: 30%;
+			margin: 10px;
+			border: solid 1px black;
+			background-color: #FCF0AD;
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		.del_btn {
+			margin: 5px 10px 0 0;
+		}
+
+		.text_note {
+			width: 90%;
+			height:300px;
+			display: block;
+			margin: 10px auto 10px auto;
+			resize: none;
+			background-color: #FCF0AD;
+		}
+
+		.add_note {
+			width: 240px;
+			background-color: #FCF0AD;
+		}
+
+		.add_description {
+			width: 240px;
+			height: 200px;
+			background-color: #FCF0AD;
+		}
+
+		.add_btn {
+			display: block;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
