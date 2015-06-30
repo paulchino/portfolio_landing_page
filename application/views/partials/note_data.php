@@ -12,7 +12,7 @@
 				<div class="notes">
 					<form action="/notes/update" method="post">
 						<input type='hidden' name='id' value='<?=$notes['id'] ?>'>
-						<textarea class="text_note" name="description"> <?= $notes['description'] ?> </textarea>
+						<textarea class="text_note" name="description"><?= $notes['description'] ?></textarea>
 					</form>
 				</div>
 			</div>
