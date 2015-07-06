@@ -78,7 +78,7 @@
                     <div class="intro-text">
                         <span class="name">Paul Chang</span>
                         <hr class="star-light">
-                        <span class="skills">Full Stack Web Developer</span>
+                        <span class="skills">Front End Web Developer</span>
                     </div>
                 </div>
             </div>
@@ -132,7 +132,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="/assets/img/portfolio/game.png" class="img-responsive" alt="">
+                        <img src="/assets/img/portfolio/angular_sportsStore.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -173,7 +173,7 @@
                     <p>Self motivated software engineer seeking a position as a front end developer. Experience in building projects in multiple frameworks.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                    <p>I enjoy designing and building things. Structural engineer in my past life. Love being apart of a dedicated team focused making the best possible product.</p>
                 </div>
 <!--                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="#" class="btn btn-lg btn-outline">
@@ -373,7 +373,7 @@
                         <div class="modal-body">
                             <h2>Draw with Friends</h2>
                             <hr class="star-primary">
-                            <img src="/assets/img/portfolio/draw_with_friends.png" class="img-responsive img-centered" alt="">
+                            <img src="/assets/img/portfolio/draw_with_friends_full.png" class="img-responsive img-centered" alt="">
                             <p>
                                 Web application where multiple users can draw together in real-time. Users can also communicate with each other through a chat box. When users are satisfied with the final product they can either email the drawings to their friends or save the drawing to the Draw with Friends Gallery. Deployed using heroku. 
                             </p>
@@ -412,7 +412,7 @@
                         <div class="modal-body">
                             <h2>User Dashboard</h2>
                             <hr class="star-primary">
-                            <img src="/assets/img/portfolio/user_dashboard.png" class="img-responsive img-centered" alt="user-dashboard">
+                            <img src="/assets/img/portfolio/dashboard_screenshot.png" class="img-responsive img-centered" alt="user-dashboard">
                             <p>User dashboard built using Ruby on Rails using all CRUD operations and a relational database model. Users can sign up create their own profile. Upon login, users have the ability to update their own profile and leave post messages or comments on other users walls. Special administrative users can edit/deleted non-admin users. 
                             </p>
                             <ul class="list-inline item-details">
@@ -452,12 +452,20 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Angular Sports Store</h2>
                             <hr class="star-primary">
-                            <img src="/assets/img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="/assets/img/portfolio/angular_sportsStore.png" class="img-responsive img-centered" alt="">
+                            <p>Factious ecommerce sport store built using angular. Users can view products by categories and add/remove items to their shopping cart. Admin users can add/edit products and orders.</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
+                                <li>Technologies Used:
+                                    <strong>Angular | Deployd (backend API using MongoDB) | Bootstrap  
+                                    </strong>
+                                </li>
+                                <li>Project Link:
+                                    <strong><a href="#">Coming Soon!</a>
+                                    </strong>
+                                </li>
+<!--                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
                                     </strong>
                                 </li>
@@ -468,7 +476,7 @@
                                 <li>Service:
                                     <strong><a href="http://startbootstrap.com">Web Development</a>
                                     </strong>
-                                </li>
+                                </li> -->
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -491,7 +499,7 @@
                         <div class="modal-body">
                             <h2>Ajax Notes</h2>
                             <hr class="star-primary">
-                            <img src="/assets/img/portfolio/ajax_notes.png" class="img-responsive img-centered" alt="">
+                            <img src="/assets/img/portfolio/ajax_notes_full.png" class="img-responsive img-centered" alt="">
                             <p>Notes created and modified using AJAX! Add a title and description and click the 'add-note' button to add. To update the description, simply click inside the note textbox, update the text, then click outside the textbox. The note will automatically update! Uses MySQL Database.
 
                             </p>
