@@ -26,10 +26,14 @@
 			min-height: 300px;
 			width: 30%;
 			margin: 10px;
+			box-shadow: 10px 10px 8px gray;                 
+			-moz-box-shadow: 10px 10px 8px gray;        
+			-webkit-box-shadow:10px 10px 8px gray;			
 			border: solid 1px black;
 			background-color: #FCF0AD;
 			display: inline-block;
 			vertical-align: top;
+
 		}
 
 		.del_btn {

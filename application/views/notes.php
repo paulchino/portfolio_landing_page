@@ -1,6 +1,8 @@
 <html>
 <head>
 	<title>Ajax Notes</title>
+    <meta name="description" content="Portfolio project for Paul Chang, front end engineer. Notes created and modified using AJAX! Add a title and description and click the 'add-note' button to add. To update the description, simply click inside the note textbox, update the text, then click outside the textbox. The note will automatically update! Uses MySQL Database.">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -63,17 +65,6 @@
 			</div>
 		</div>
 
-<!-- 		<div id='ajax-notes'>
-		</div> -->
-<!-- 		<div class='add-cont'>
-			<form action='/notes/create' method='post'>
-				<h4>Title</h4>
-				<input class='add-note' name='title' type='text'>
-				<h4>Description</h4>
-				<input class='add-note' name='description' type='text'>
-				<input type='submit' value='add notes'>
-			</form>
-		</div> -->
 	</div>
 
 		<!-- Modal -->
