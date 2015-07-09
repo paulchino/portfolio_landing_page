@@ -20,6 +20,10 @@ class Main extends CI_Controller {
 		$this->load->view("js_ball");
 	}
 
+	public function frogger() {
+		$this->load->view("frogger");
+	}
+
 	public function mail()
 	{
 		//var_dump($this->input->post());

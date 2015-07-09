@@ -155,6 +155,21 @@
                         <img src="/assets/img/portfolio/js_balls.png" class="img-responsive" alt="">
                     </a>
                 </div>
+<!--                 <div class="col-sm-4">
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="/assets/img/portfolio/js_balls.png" class="img-responsive" alt="">
+                    </a>
+                </div> -->
+
+
+
             </div>
         </div>
     </section>

@@ -1,0 +1,48 @@
+* {
+	background-color: #A9B094;
+}
+
+h1 {
+	margin: 10px;
+}
+
+h3 {
+	margin: 5px;
+}
+
+
+body {
+    text-align: center;
+}
+
+canvas {
+	/*position: relative;*/
+	display: block;
+	margin: 0 auto;
+}
+.midspace {
+	background-color: green;
+	min-height: 100px;
+
+}
+
+.characters {
+/*	border: 1px solid red;*/
+	vertical-align: top;
+	display: inline-block;
+}
+
+.tableScore {
+	display: inline-block;
+}
+
+
+.char {
+	position: relative;
+	display: block;
+}
+
+
+.char:hover {
+	top: -10px;
+}
