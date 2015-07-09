@@ -155,18 +155,19 @@
                         <img src="/assets/img/portfolio/js_balls.png" class="img-responsive" alt="">
                     </a>
                 </div>
-<!--                 <div class="col-sm-4">
+                <div class="col-sm-4">
                 </div>
+
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="/assets/img/portfolio/js_balls.png" class="img-responsive" alt="">
+                        <img src="/assets/img/portfolio/frogger.png" class="img-responsive" alt="">
                     </a>
-                </div> -->
+                </div>
 
 
 
@@ -587,6 +588,52 @@
             </div>
         </div>
     </div>
+
+
+
+
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Frogger</h2>
+                            <hr class="star-primary">
+                            <img src="/assets/img/portfolio/frogger.png" class="img-responsive img-centered" alt="">
+                            <p>
+                                Use the arrow keys to dodge the ladybugs! Collision with the bugs, falling in the water, or stepping back onto the grass will reset the score. 
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>Technologies Used:
+                                    <strong>Javascript | jQuery
+                                    </strong>
+                                </li>
+        <!--                         <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li> -->
+                                <li>Project Link:
+                                    <strong><a href="/frogger">Frogger</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 
     <!-- jQuery -->
     <script src="/assets/js/jquery.js"></script>
