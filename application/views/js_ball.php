@@ -3,7 +3,6 @@
 	<title>Javascript Box - OOP demo</title>
 </head>
 
-<!-- <script src="/assets/js/jquery.js"></script> -->
 <style type="text/css">
 
 /*body {
@@ -19,7 +18,6 @@ html {
 	border-radius: 12px;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none; /* Disable selection/copy in UIWebView */
-
 }
 
 </style>
@@ -37,12 +35,13 @@ html {
 
 	if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 		mobile = true;
-		var rate = 10;
+		rate = 10;
+		//need coords on touchstart
+		var x_mobile, y_mobile;		
+		//alert(navigator.userAgent);
 	}
 
 	var time_pressed;
-
-	//action to determine record mouse time
 	(function () {
 		var mousedown_time;
 
@@ -51,38 +50,46 @@ html {
 			return date.getTime();
 		}
 
-		if (mobile) {
-			document.ontouchstart = function(e) {
-				mousedown_time = getTime();
-
-			}
-		} else {
-			document.onmousedown = function(e){
-				mousedown_time = getTime();
-			}
+		function elapsed(init) {
+			time_pressed = getTime() - init;
+			time_pressed = time_pressed < 50 ? 50 : time_pressed;
+			time_pressed = time_pressed > 1000 ? 1000 : time_pressed;
 		}
 
 		if (mobile) {
-			document.ontouchend = function(e) {
-				time_pressed = getTime() - mousedown_time;
-				time_pressed = time_pressed < 50 ? 50 : time_pressed;
-				time_pressed = time_pressed > 1000 ? 1000 : time_pressed;
-				return time_pressed;
-				
-			}
-		} else {
-			document.onmouseup = function(e){
-				time_pressed = getTime() - mousedown_time;
-				time_pressed = time_pressed < 50 ? 50 : time_pressed;
-				time_pressed = time_pressed > 1000 ? 1000 : time_pressed;
+			document.addEventListener('touchstart', function(e) {
+				x_mobile = e.touches[0].clientX;
+				y_mobile = e.touches[0].clientY;
+				mousedown_time = getTime();
+			})
 
+			document.addEventListener("touchend", function(e) {
+				elapsed(mousedown_time);
+
+				// time_pressed = getTime() - mousedown_time;
+				// time_pressed = time_pressed < 50 ? 50 : time_pressed;
+				// time_pressed = time_pressed > 1000 ? 1000 : time_pressed;
+				playground.createNewCircle(x_mobile, y_mobile);
+			})	
+		} else {
+			document.onmousedown = function(e) {
+				mousedown_time = getTime();
+			}
+
+			document.onmouseup = function(e) {
+				elapsed(mousedown_time);
+				// time_pressed = getTime() - mousedown_time;
+				// time_pressed = time_pressed < 50 ? 50 : time_pressed;
+				// time_pressed = time_pressed > 1000 ? 1000 : time_pressed;
+				//console.log(time_pressed);
 				return time_pressed;
 			}
 		}
-
-
-	
 	})();
+
+	document.touchstart = function(e) {
+		alert('test');
+	}
 
 	function Circle(cx, cy, html_id) {
 		function randomColor() {
@@ -109,7 +116,7 @@ html {
 		this.info = { 
 			cx: cx,
 			cy: cy,
-			r: time_pressed/6,
+			r: time_pressed/rate,
 			id: html_id,
 			style: 'fill:' + randomColor() 
 		};
@@ -206,16 +213,15 @@ html {
 				}
 			}
 		}
-		//create one circle when the game starts
-		//this.createNewCircle(document.body.clientWidth, document.body.clientHeight);
 	}
 
 	var playground = new PlayGround();
 	setInterval(playground.loop, 10);
 
-	document.onclick = function(e) {
-		playground.createNewCircle(e.x,e.y);
+	if (!mobile) {
+		document.onclick = function(e) {
+			playground.createNewCircle(e.x,e.y);
+		}
 	}
-
 	</script>
 </html>
