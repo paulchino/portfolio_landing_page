@@ -6,13 +6,24 @@
 <!-- <script src="/assets/js/jquery.js"></script> -->
 <style type="text/css">
 
-	#svg {
-		height:100vh;
-		min-width: 100vw;
-		border-radius: 12px;
-	}
+/*body {
+	-webkit-user-select: none; 
+}*/
+html {
+	-webkit-user-select: none; 
+}
+
+#svg {
+	height:100vh;
+	min-width: 100vw;
+	border-radius: 12px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none; /* Disable selection/copy in UIWebView */
+
+}
 
 </style>
+
 <body>
 	<svg id="svg" xmlns="http://www.w3.org/2000/svg"></svg>
 </body>
@@ -20,6 +31,14 @@
 
 	<script>
 	alert("Click down the mouse button to create colorful circles. Hold down longer for larger cirlces!");
+
+	var mobile = false;
+	var rate = 6;
+
+	if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		mobile = true;
+		var rate = 10;
+	}
 
 	var time_pressed;
 
@@ -32,20 +51,37 @@
 			return date.getTime();
 		}
 
-		document.onmousedown = function(e){
-			mousedown_time = getTime();
-		}
-		document.onmouseup = function(e){
-			time_pressed = getTime() - mousedown_time;
-			if (time_pressed < 50) {
-				time_pressed = 50;
+		if (mobile) {
+			document.ontouchstart = function(e) {
+				mousedown_time = getTime();
+
 			}
-			if (time_pressed > 1000) {
-				time_pressed = 1000;
+		} else {
+			document.onmousedown = function(e){
+				mousedown_time = getTime();
 			}
-			//console.log('You held your mouse down for', time_pressed, 'miliseconds.');
-			return time_pressed;
 		}
+
+		if (mobile) {
+			document.ontouchend = function(e) {
+				time_pressed = getTime() - mousedown_time;
+				time_pressed = time_pressed < 50 ? 50 : time_pressed;
+				time_pressed = time_pressed > 1000 ? 1000 : time_pressed;
+				return time_pressed;
+				
+			}
+		} else {
+			document.onmouseup = function(e){
+				time_pressed = getTime() - mousedown_time;
+				time_pressed = time_pressed < 50 ? 50 : time_pressed;
+				time_pressed = time_pressed > 1000 ? 1000 : time_pressed;
+
+				return time_pressed;
+			}
+		}
+
+
+	
 	})();
 
 	function Circle(cx, cy, html_id) {
