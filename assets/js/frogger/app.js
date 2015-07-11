@@ -94,29 +94,29 @@ Player.prototype.handleInput= function(keyCode) {
 var player = new Player;
 
 
-$(".up_arrow_btn").on("mousedown", function() {
-    console.log('hello');
+
+//click events for arrows fix
+$(".up_arrow_btn").click(function() {
     player.handleInput("up");
 });
 
-//click events for arrows fix
-// $(".up_arrow_btn").click(function() {
-//     player.handleInput("up");
-// });
-$(".left_arrow_btn").bind("touchstart mousedown", function(e) {
-    player.handleInput("left");
-})
 
-$(".down_arrow_btn").bind("touchstart mousedown", function(e) {
-    player.handleInput("down");
-})
-// $(".left_arrow_btn").click(function() {
+
+
+// $(".left_arrow_btn").bind("touchstart mousedown", function(e) {
 //     player.handleInput("left");
 // })
 
-// $(".down_arrow_btn").click(function() {
+// $(".down_arrow_btn").bind("touchstart mousedown", function(e) {
 //     player.handleInput("down");
 // })
+$(".left_arrow_btn").click(function() {
+    player.handleInput("left");
+})
+
+$(".down_arrow_btn").click(function() {
+    player.handleInput("down");
+})
 
 $(".right_arrow_btn").click(function() {
     player.handleInput("right");
