@@ -25,10 +25,14 @@
 		</div>		
 	</div>
 	<div class="keyboard">
-		<button class="arrow up_arrow_btn"><img src="/assets/img/frogger/up_arrow.png"></button>
+		<input class="arrow up_arrow_btn" type="image" src="/assets/img/frogger/up_arrow.png" />
+		<input class="arrow left_arrow_btn" type="image" src="/assets/img/frogger/left_arrow.png" />
+		<input class="arrow down_arrow_btn" type="image" src="/assets/img/frogger/down_arrow.png" />
+		<input class="arrow right_arrow_btn" type="image" src="/assets/img/frogger/right_arrow.png" />	
+<!-- 		<button class="arrow up_arrow_btn"><img src="/assets/img/frogger/up_arrow.png"></button>
 		<button class="arrow left_arrow_btn"><img src="/assets/img/frogger/left_arrow.png"></button>
 		<button class="arrow down_arrow_btn"><img src="/assets/img/frogger/down_arrow.png"></button>
-		<button class="arrow right_arrow_btn"><img src="/assets/img/frogger/right_arrow.png"></button>
+		<button class="arrow right_arrow_btn"><img src="/assets/img/frogger/right_arrow.png"></button> -->
 	</div>
 
 </body>
