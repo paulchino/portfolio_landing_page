@@ -178,10 +178,23 @@ var blueGem = new Gem;
 
 //var blueGem = new Gem;
 
-// Place the player object in a variable called player
 
+//click events for arrows
+$(".up_arrow_btn").click(function() {
+    player.handleInput("up");
+});
 
+$(".left_arrow_btn").click(function() {
+    player.handleInput("left");
+})
 
+$(".down_arrow_btn").click(function() {
+    player.handleInput("down");
+})
+
+$(".right_arrow_btn").click(function() {
+    player.handleInput("right");
+})
 
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.
@@ -192,6 +205,5 @@ document.addEventListener('keyup', function(e) {
         39: 'right',
         40: 'down'
     };
-
     player.handleInput(allowedKeys[e.keyCode]);
 });

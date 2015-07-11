@@ -46,3 +46,24 @@ canvas {
 .char:hover {
 	top: -10px;
 }
+
+
+/*------  arrow keys */
+.arrow {
+	padding: 10px;
+}
+
+.up_arrow_btn {
+	display: block;
+	margin: 0 auto 10px auto; 
+}
+
+.left_arrow_btn {
+	margin-right: 10px;
+}
+
+.right_arrow_btn {
+	margin-left: 10px;
+}
+
+

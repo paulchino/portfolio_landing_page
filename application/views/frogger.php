@@ -24,14 +24,16 @@
 			<input type = "image" src = "/assets/img/frogger/char-princess-girl.png" class = 'char' alt = 'Princess'>
 		</div>		
 	</div>
+	<div class="keyboard">
+		<button class="arrow up_arrow_btn"><img class="" src="/assets/img/frogger/up_arrow.png"></button>
+		<button class="arrow left_arrow_btn"><img class="" src="/assets/img/frogger/left_arrow.png"></button>
+		<button class="arrow down_arrow_btn"><img class="" src="/assets/img/frogger/down_arrow.png"></button>
+		<button class="arrow right_arrow_btn"><img class="" src="/assets/img/frogger/right_arrow.png"></button>
+	</div>
 
 </body>
-<!--     // <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> -->
     <script type="text/javascript" src="/assets/js/jquery.js"></script>
     <script type="text/javascript" src="/assets/js/frogger/resources.js"></script>
     <script type="text/javascript" src="/assets/js/frogger/app.js"></script>
     <script type="text/javascript" src="/assets/js/frogger/engine.js"></script>  
-<!--     // <script src="js/resources.js"></script>
-    // <script src="js/app.js"></script>
-    // <script src="js/engine.js"></script> -->
 </html>
