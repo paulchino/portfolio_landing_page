@@ -93,6 +93,28 @@ Player.prototype.handleInput= function(keyCode) {
 
 var player = new Player;
 
+
+$(".up_arrow_btn").on("mousedown", function() {
+    console.log('hello');
+    player.handleInput("up");
+});
+
+//click events for arrows fix
+// $(".up_arrow_btn").click(function() {
+//     player.handleInput("up");
+// });
+
+$(".left_arrow_btn").click(function() {
+    player.handleInput("left");
+})
+
+$(".down_arrow_btn").click(function() {
+    player.handleInput("down");
+})
+
+$(".right_arrow_btn").click(function() {
+    player.handleInput("right");
+})
 function charSelect() {
     var link = $(this).attr("src");
     console.log(link);
@@ -177,29 +199,7 @@ var blueGem = new Gem;
 
 
 //var blueGem = new Gem;
-$(".up_arrow_btn").on("click", function() {
-    player.handleInput("up");
-});
 
-
-
-
-//click events for arrows fix
-// $(".up_arrow_btn").click(function() {
-//     player.handleInput("up");
-// });
-
-$(".left_arrow_btn").click(function() {
-    player.handleInput("left");
-})
-
-$(".down_arrow_btn").click(function() {
-    player.handleInput("down");
-})
-
-$(".right_arrow_btn").click(function() {
-    player.handleInput("right");
-})
 
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.
