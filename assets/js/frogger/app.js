@@ -179,7 +179,10 @@ var blueGem = new Gem;
 //var blueGem = new Gem;
 $(".up_arrow_btn").on("click", function() {
     player.handleInput("up");
+    console.log("hello");
 });
+
+
 
 
 //click events for arrows fix

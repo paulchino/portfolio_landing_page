@@ -66,4 +66,8 @@ canvas {
 	margin-left: 10px;
 }
 
+.arrow img {
+	z-index: -1;
+}
+
 
