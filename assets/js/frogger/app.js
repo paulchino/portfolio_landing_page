@@ -177,12 +177,15 @@ var blueGem = new Gem;
 
 
 //var blueGem = new Gem;
+$(".up_arrow_btn").on("click", function() {
+    player.handleInput("up");
+});
 
 
 //click events for arrows fix
-$(".up_arrow_btn").click(function() {
-    player.handleInput("up");
-});
+// $(".up_arrow_btn").click(function() {
+//     player.handleInput("up");
+// });
 
 $(".left_arrow_btn").click(function() {
     player.handleInput("left");
