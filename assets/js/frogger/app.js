@@ -103,14 +103,20 @@ $(".up_arrow_btn").on("mousedown", function() {
 // $(".up_arrow_btn").click(function() {
 //     player.handleInput("up");
 // });
-
-$(".left_arrow_btn").click(function() {
+$(".left_arrow_btn").bind("touchstart mousedown", function(e) {
     player.handleInput("left");
 })
 
-$(".down_arrow_btn").click(function() {
+$(".down_arrow_btn").bind("touchstart mousedown", function(e) {
     player.handleInput("down");
 })
+// $(".left_arrow_btn").click(function() {
+//     player.handleInput("left");
+// })
+
+// $(".down_arrow_btn").click(function() {
+//     player.handleInput("down");
+// })
 
 $(".right_arrow_btn").click(function() {
     player.handleInput("right");
