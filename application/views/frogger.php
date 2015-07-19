@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Effective JavaScript: Frogger</title>
-    <meta name="viewport" content="user-scalable=no"> 
+<!--     <meta name="viewport" content="user-scalable=no">  -->
     <link href="/assets/css/frogger.css" rel="stylesheet">
 
 </head>
