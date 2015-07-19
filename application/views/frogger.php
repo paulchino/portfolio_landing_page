@@ -3,7 +3,7 @@
 <head>
     <title>Effective JavaScript: Frogger</title>
 <!--     <meta name="viewport" content="user-scalable=no">  -->
-    <link href="/assets/css/frogger.css" rel="stylesheet">
+    <link href="/assets/dist/css/styles/frogger.min.css" rel="stylesheet">
 
 </head>
 <body>
@@ -30,15 +30,11 @@
 		<input class="arrow left_arrow_btn" type="image" src="/assets/img/frogger/left_arrow.png" />
 		<input class="arrow down_arrow_btn" type="image" src="/assets/img/frogger/down_arrow.png" />
 		<input class="arrow right_arrow_btn" type="image" src="/assets/img/frogger/right_arrow.png" />	
-<!-- 		<button class="arrow up_arrow_btn"><img src="/assets/img/frogger/up_arrow.png"></button>
-		<button class="arrow left_arrow_btn"><img src="/assets/img/frogger/left_arrow.png"></button>
-		<button class="arrow down_arrow_btn"><img src="/assets/img/frogger/down_arrow.png"></button>
-		<button class="arrow right_arrow_btn"><img src="/assets/img/frogger/right_arrow.png"></button> -->
 	</div>
 
 </body>
-    <script type="text/javascript" src="/assets/js/jquery.js"></script>
-    <script type="text/javascript" src="/assets/js/frogger/resources.js"></script>
-    <script type="text/javascript" src="/assets/js/frogger/app.js"></script>
-    <script type="text/javascript" src="/assets/js/frogger/engine.js"></script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/dist/js/frogger/resources.min.js"></script>
+    <script type="text/javascript" src="/assets/dist/js/frogger/app.min.js"></script>
+    <script type="text/javascript" src="/assets/dist/js/frogger/engine.min.js"></script>  
 </html>

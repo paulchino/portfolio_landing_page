@@ -12,12 +12,8 @@
     <title>Paul Chang</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="/assets/css/vendor/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="/assets/css/freelancer.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="/assets/dist/css/styles/freelancer.min.css" rel="stylesheet">
     <link href="/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -632,26 +628,20 @@
         </div>
     </div>
 
-
-
-
     <!-- jQuery -->
-    <script src="/assets/js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="/assets/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="/assets/js/classie.js"></script>
-    <script src="/assets/js/cbpAnimatedHeader.js"></script>
+
+    <script src="/assets/dist/js/classie.min.js"></script>
+    <script src="/assets/dist/js/cbpAnimatedHeader.min.js"></script>
 
     <!-- Contact Form JavaScript -->
-    <script src="/assets/js/jqBootstrapValidation.js"></script>
-    <script src="/assets/js/contact_me.js"></script>
+    <script src="/assets/dist/js/jqBootstrapValidation.min.js"></script>
+    <script src="/assets/dist/js/contact_me.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="/assets/js/freelancer.js"></script>
+    <script src="/assets/dist/js/freelancer.min.js"></script>
 
 </body>
 
