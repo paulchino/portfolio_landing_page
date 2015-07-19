@@ -70,7 +70,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive profile_pic" src="/assets/img/pchang_profile.png" alt="Paul's Profile Pic">
+                    <img class="img-responsive profile_pic" src="/assets/dist/img/pchang_profile.png" alt="Paul's Profile Pic">
                     <div class="intro-text">
                         <span class="name">Paul Chang</span>
                         <hr class="star-light">
@@ -98,7 +98,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="/assets/img/portfolio/gifg.png" class="img-responsive" alt="">
+                        <img src="/assets/dist/img/portfolio/gifg.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -108,7 +108,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="/assets/img/portfolio/draw_with_friends.png" class="img-responsive" alt="">
+                        <img src="/assets/dist/img/portfolio/draw_with_friends.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -118,7 +118,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="/assets/img/portfolio/user_dashboard.png" class="img-responsive" alt="">
+                        <img src="/assets/dist/img/portfolio/user_dashboard.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -128,7 +128,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="/assets/img/portfolio/angular_sportsStore.png" class="img-responsive" alt="">
+                        <img src="/assets/dist/img/portfolio/angular_sportsStore.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -138,7 +138,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="/assets/img/portfolio/ajax_notes.png" class="img-responsive" alt="">
+                        <img src="/assets/dist/img/portfolio/ajax_notes.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -148,7 +148,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="/assets/img/portfolio/js_balls.png" class="img-responsive" alt="">
+                        <img src="/assets/dist/img/portfolio/js_balls.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4">
@@ -161,7 +161,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="/assets/img/portfolio/frogger.png" class="img-responsive" alt="">
+                        <img src="/assets/dist/img/portfolio/frogger.png" class="img-responsive" alt="">
                     </a>
                 </div>
 
@@ -346,7 +346,7 @@
                             <h2>gifG.io</h2>
                             <hr class="star-primary">
                             <!-- insert image here -->
-                            <img src="/assets/img/portfolio/gifg2.png" class="img-responsive img-centered" alt="">
+                            <img src="/assets/dist/img/portfolio/gifg2.png" class="img-responsive img-centered" alt="">
                             <p>
                                 A gif search engine and gallery generator. Based on users searches a customizable gif gallery will be created. User can add additional gifs, copy, and reformat layouts to create their own gallery. A specific gallery can also be sent to friends using a permalink. The application is responsive through the use of media queries and works great on mobile. Deployed using Amazing EC2 with nginx server.
                             </p>
@@ -385,7 +385,7 @@
                         <div class="modal-body">
                             <h2>Draw with Friends</h2>
                             <hr class="star-primary">
-                            <img src="/assets/img/portfolio/draw_with_friends_full.png" class="img-responsive img-centered" alt="">
+                            <img src="/assets/dist/img/portfolio/draw_with_friends_full.png" class="img-responsive img-centered" alt="">
                             <p>
                                 Web application where multiple users can draw together in real-time. Users can also communicate with each other through a chat box. When users are satisfied with the final product they can either email the drawings to their friends or save the drawing to the Draw with Friends Gallery. Deployed using heroku. 
                             </p>
@@ -424,7 +424,7 @@
                         <div class="modal-body">
                             <h2>User Dashboard</h2>
                             <hr class="star-primary">
-                            <img src="/assets/img/portfolio/dashboard_screenshot.png" class="img-responsive img-centered" alt="user-dashboard">
+                            <img src="/assets/dist/img/portfolio/dashboard_screenshot.png" class="img-responsive img-centered" alt="user-dashboard">
                             <p>User dashboard built using Ruby on Rails using all CRUD operations and a relational database model. Users can sign up create their own profile. Upon login, users have the ability to update their own profile and leave post messages or comments on other users walls. Special administrative users can edit/deleted non-admin users. 
                             </p>
                             <ul class="list-inline item-details">
@@ -466,7 +466,7 @@
                         <div class="modal-body">
                             <h2>Angular Sports Store</h2>
                             <hr class="star-primary">
-                            <img src="/assets/img/portfolio/angular_sportsStore.png" class="img-responsive img-centered" alt="">
+                            <img src="/assets/dist/img/portfolio/angular_sportsStore.png" class="img-responsive img-centered" alt="">
                             <p>Factious ecommerce sport store built using angular. Users can view products by categories and add/remove items to their shopping cart. Admin users can add/edit products and orders.</p>
                             <ul class="list-inline item-details">
                                 <li>Technologies Used:
@@ -511,7 +511,7 @@
                         <div class="modal-body">
                             <h2>Ajax Notes</h2>
                             <hr class="star-primary">
-                            <img src="/assets/img/portfolio/ajax_notes_full.png" class="img-responsive img-centered" alt="">
+                            <img src="/assets/dist/img/portfolio/ajax_notes_full.png" class="img-responsive img-centered" alt="">
                             <p>Notes created and modified using AJAX! Add a title and description and click the 'add-note' button to add. To update the description, simply click inside the note textbox, update the text, then click outside the textbox. The note will automatically update! Uses MySQL Database.
 
                             </p>
@@ -559,7 +559,7 @@
                         <div class="modal-body">
                             <h2>Javascript Balls</h2>
                             <hr class="star-primary">
-                            <img src="/assets/img/portfolio/js_balls.png" class="img-responsive img-centered" alt="">
+                            <img src="/assets/dist/img/portfolio/js_balls.png" class="img-responsive img-centered" alt="">
                             <p>
                                 No libraries or utility helpers. Just Pure javascript. Using object oriented programming, colorful balls are created that move and bounce off the browswer window. On collision the balls disapear.
                             </p>
@@ -602,7 +602,7 @@
                         <div class="modal-body">
                             <h2>Frogger</h2>
                             <hr class="star-primary">
-                            <img src="/assets/img/portfolio/frogger.png" class="img-responsive img-centered" alt="">
+                            <img src="/assets/dist/img/portfolio/frogger.png" class="img-responsive img-centered" alt="">
                             <p>
                                 Use the arrow keys to dodge the ladybugs! Collision with the bugs, falling in the water, or stepping back onto the grass will reset the score. 
                             </p>

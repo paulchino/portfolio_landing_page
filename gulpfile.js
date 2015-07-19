@@ -1,5 +1,3 @@
-
-
 var gulp = require('gulp'),
     minifyCss = require('gulp-minify-css');
     //sass = require('gulp-ruby-sass'),
@@ -7,7 +5,8 @@ var gulp = require('gulp'),
     minifycss = require('gulp-minify-css'),
     jshint = require('gulp-jshint'),
     uglify = require('gulp-uglify'),
-    imagemin = require('gulp-imagemin'),
+    //--- imagemn not used
+    //imagemin = require('gulp-imagemin'),
     rename = require('gulp-rename'),
     //concat not used
     //concat = require('gulp-concat'),
@@ -17,7 +16,6 @@ var gulp = require('gulp'),
     // livereload = require('gulp-livereload'),
     del = require('del');
 
-//works
 gulp.task('default', function() {
     console.log('hello');
 })
@@ -45,6 +43,7 @@ gulp.task('scripts', function() {
     .pipe(gulp.dest('assets/dist/js'))
     .pipe(notify({ message: 'Scripts task complete' }));
 });
+
 
 //---- Gulp watch listener. Automatically runs noted task
 gulp.task('watch', function() {

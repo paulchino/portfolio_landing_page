@@ -155,12 +155,12 @@ var Engine = (function(global) {
          * for that particular row of the game level.
          */
         var rowImages = [
-                '/assets/img/frogger/water-block.png',   // Top row is water
-                '/assets/img/frogger/stone-block.png',   // Row 1 of 3 of stone
-                '/assets/img/frogger/stone-block.png',   // Row 2 of 3 of stone
-                '/assets/img/frogger/stone-block.png',   // Row 3 of 3 of stone
-                '/assets/img/frogger/grass-block.png',   // Row 1 of 2 of grass
-                '/assets/img/frogger/grass-block.png'    // Row 2 of 2 of grass
+                '/assets/dist/img/frogger/water-block.png',   // Top row is water
+                '/assets/dist/img/frogger/stone-block.png',   // Row 1 of 3 of stone
+                '/assets/dist/img/frogger/stone-block.png',   // Row 2 of 3 of stone
+                '/assets/dist/img/frogger/stone-block.png',   // Row 3 of 3 of stone
+                '/assets/dist/img/frogger/grass-block.png',   // Row 1 of 2 of grass
+                '/assets/dist/img/frogger/grass-block.png'    // Row 2 of 2 of grass
             ],
             numRows = 6,
             numCols = 5,
@@ -216,15 +216,15 @@ var Engine = (function(global) {
      * all of these images are properly loaded our game will start.
      */
     Resources.load([
-        '/assets/img/frogger/stone-block.png',
-        '/assets/img/frogger/water-block.png',
-        '/assets/img/frogger/grass-block.png',
-        '/assets/img/frogger/enemy-bug.png',
-        '/assets/img/frogger/char-boy.png' , 
-        '/assets/img/frogger/char-cat-girl.png',
-        '/assets/img/frogger/char-horn-girl.png',
-        '/assets/img/frogger/char-princess-girl.png',
-        '/assets/img/frogger/Gem-Blue.png'
+        '/assets/dist/img/frogger/stone-block.png',
+        '/assets/dist/img/frogger/water-block.png',
+        '/assets/dist/img/frogger/grass-block.png',
+        '/assets/dist/img/frogger/enemy-bug.png',
+        '/assets/dist/img/frogger/char-boy.png' , 
+        '/assets/dist/img/frogger/char-cat-girl.png',
+        '/assets/dist/img/frogger/char-horn-girl.png',
+        '/assets/dist/img/frogger/char-princess-girl.png',
+        '/assets/dist/img/frogger/Gem-Blue.png'
     ]);
     Resources.onReady(init);
 

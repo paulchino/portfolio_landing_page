@@ -5,7 +5,7 @@ var Enemy = function() {
 
     // The image/sprite for our enemies, this uses
     // a helper we've provided to easily load img
-    this.sprite = '/assets/img/frogger/enemy-bug.png';
+    this.sprite = '/assets/dist/img/frogger/enemy-bug.png';
     this.x = 0;
     this.y = 0;
     this.speed = Math.floor(Math.random() * 100) + 100;
@@ -45,7 +45,7 @@ for (var i = 0; i < 4; i++) {
 // ---------- Player Class
 
 var Player = function() {
-    this.sprite = '/assets/img/frogger/char-cat-girl.png';
+    this.sprite = '/assets/dist/img/frogger/char-cat-girl.png';
     this.x = 202;
     this.y = 332;
 }

@@ -14,22 +14,22 @@
 	</div>
 	<div class="container">
 		<div class= "characters">
-			<input type = "image" src="/assets/img/frogger/char-boy.png" class = 'char' alt = 'Char Boy'> 
-			<input type = "image" src = "/assets/img/frogger/char-cat-girl.png" class = 'char' alt = 'Cat Girl'>
+			<input type = "image" src="/assets/dist/img/frogger/char-boy.png" class = 'char' alt = 'Char Boy'> 
+			<input type = "image" src = "/assets/dist/img/frogger/char-cat-girl.png" class = 'char' alt = 'Cat Girl'>
 		</div>
 		<div class = "tableScore">
 
 		</div>
 		<div class= "characters">
-			<input type = "image" src = "/assets/img/frogger/char-horn-girl.png" class = 'char' alt = 'Horn Girl'>
-			<input type = "image" src = "/assets/img/frogger/char-princess-girl.png" class = 'char' alt = 'Princess'>
+			<input type = "image" src = "/assets/dist/img/frogger/char-horn-girl.png" class = 'char' alt = 'Horn Girl'>
+			<input type = "image" src = "/assets/dist/img/frogger/char-princess-girl.png" class = 'char' alt = 'Princess'>
 		</div>		
 	</div>
 	<div class="keyboard">
-		<input class="arrow up_arrow_btn" type="image" src="/assets/img/frogger/up_arrow.png" />
-		<input class="arrow left_arrow_btn" type="image" src="/assets/img/frogger/left_arrow.png" />
-		<input class="arrow down_arrow_btn" type="image" src="/assets/img/frogger/down_arrow.png" />
-		<input class="arrow right_arrow_btn" type="image" src="/assets/img/frogger/right_arrow.png" />	
+		<input class="arrow up_arrow_btn" type="image" src="/assets/dist/img/frogger/up_arrow.png" />
+		<input class="arrow left_arrow_btn" type="image" src="/assets/dist/img/frogger/left_arrow.png" />
+		<input class="arrow down_arrow_btn" type="image" src="/assets/dist/img/frogger/down_arrow.png" />
+		<input class="arrow right_arrow_btn" type="image" src="/assets/dist/img/frogger/right_arrow.png" />	
 	</div>
 
 </body>
