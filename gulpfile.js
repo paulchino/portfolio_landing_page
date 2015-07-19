@@ -16,14 +16,14 @@ var gulp = require('gulp'),
     // livereload = require('gulp-livereload'),
     del = require('del');
 
-gulp.task('default', function() {
-    console.log('hello');
-})
+
+gulp.task('default', ['clean'], function() {
+    gulp.start('styles', 'scripts');
+});
 
 gulp.task('clean', function(cb) {
     del(['assets/dist/css/styles', 'assets/dist/js'], cb)
 });
-
 
 //--- css minify
 gulp.task('styles', function() {
@@ -43,7 +43,6 @@ gulp.task('scripts', function() {
     .pipe(gulp.dest('assets/dist/js'))
     .pipe(notify({ message: 'Scripts task complete' }));
 });
-
 
 //---- Gulp watch listener. Automatically runs noted task
 gulp.task('watch', function() {
