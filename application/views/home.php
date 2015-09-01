@@ -186,7 +186,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>Self motivated software engineer seeking a position as a front end developer. Experience in building projects in multiple frameworks.</p>
+                    <p>Self motivated front end developer with experience building projects in multiple frameworks.</p>
                 </div>
                 <div class="col-lg-4">
                     <p>I enjoy designing and building things. Structural engineer in my past life. Love being apart of a dedicated team focused making the best possible product.</p>
