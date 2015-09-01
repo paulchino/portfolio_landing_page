@@ -1,6 +1,6 @@
 var gulp = require('gulp'),
     minifyCss = require('gulp-minify-css');
-    //sass = require('gulp-ruby-sass'),
+    sass = require('gulp-sass'),
     autoprefixer = require('gulp-autoprefixer'),
     minifycss = require('gulp-minify-css'),
     jshint = require('gulp-jshint'),
@@ -18,7 +18,7 @@ var gulp = require('gulp'),
 
 
 gulp.task('default', ['clean'], function() {
-    gulp.start('styles', 'scripts');
+    gulp.start('styles', 'sass_styles', 'scripts');
 });
 
 gulp.task('clean', function(cb) {
@@ -31,6 +31,15 @@ gulp.task('styles', function() {
         .pipe(rename({suffix: '.min'}))
         .pipe(minifyCss({compatibility: 'ie8'}))
         .pipe(gulp.dest('assets/dist/css/styles'));
+});
+
+//--- sass compile and minify
+gulp.task('sass_styles', function () {
+  gulp.src('./src/css/styles/**/*.scss')
+    .pipe(sass().on('error', sass.logError))
+    .pipe(rename({suffix: '.min'}))
+    .pipe(minifycss())  
+    .pipe(gulp.dest('assets/dist/css/styles'))  
 });
 
 //---- scripts
@@ -46,7 +55,7 @@ gulp.task('scripts', function() {
 
 //---- Gulp watch listener. Automatically runs noted task
 gulp.task('watch', function() {
-  gulp.watch('src/css/styles/*.css', ['styles']);
+  gulp.watch('src/css/styles/*.css', ['styles', 'sass_styles']);
   gulp.watch('src/js/**/*.js', ['scripts']);
   // gulp.watch('src/images/**/*', ['images']);
 });

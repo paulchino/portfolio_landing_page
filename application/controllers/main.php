@@ -24,6 +24,10 @@ class Main extends CI_Controller {
 		$this->load->view("frogger");
 	}
 
+	public function modernize() {
+		$this->load->view("modernize");
+	}
+
 	public function mail()
 	{
 		//var_dump($this->input->post());

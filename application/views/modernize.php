@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modernize</title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+<link rel="stylesheet" type="text/css" href="/assets/dist/css/styles/modernize.min.css">
+<body>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-xs-12" id="header">
+				<img src="assets/dist/img/modernize/logo.png" />
+				<div>
+					<h5>Call Us: (66)8 234 678</h5>
+				</div>	
+			</div>	
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-md-12 col-sm-12" id="nav">
+				<div class="col-md-2 col-sm-4 col-xs-4">
+					<a href="#" class="text-center">Home</a>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-4">
+					<a href="#" class="text-center">Blog &raquo;</a>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-4">
+					<a href="#" class="text-center">Portfolio &raquo;</a>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-4">
+					<a href="#" class="text-center">Shortcodes &raquo;</a>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-4">
+					<a href="#" class="text-center">Features &raquo;</a>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-4">
+					<a href="#" class="text-center">Contact</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 col-xs-12" id="main">
+				<img src="assets/dist/img/modernize/main_pic.png" alt="woman resting">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 sub_blocks">
+				<div class='sub_icon'>
+					<img class="center-block" src="assets/dist/img/modernize/content_icon1.png" alt="cloud" />
+				</div>
+				<div class='sub_text'>
+					<h4>Ridiculus Ornare</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div> 
+			<div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 sub_blocks">
+				<div class='sub_icon'>
+					<img class="center-block" src="assets/dist/img/modernize/content_icon2.png" alt="clock" />
+				</div>
+				<div class='sub_text'>
+					<h4>Ipsum Purus</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+				</div>
+			</div> 
+			<div class="col-md-3 col-lg-3 col-sm-6  col-xs-6 sub_blocks">
+				<div class='sub_icon'>
+					<img class="center-block" src="assets/dist/img/modernize/content_icon3.png" alt="nav pin" />
+				</div>
+				<div class='sub_text'>
+					<h4>Tullus Quam</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do consectetur adipisicing elite.</p>
+				</div>
+			</div> 
+			<div class="col-md-3 col-lg-3 col-sm-6  col-xs-6 sub_blocks">
+				<div class='sub_icon'>
+					<img class="center-block" src="assets/dist/img/modernize/content_icon4.png" alt="circle arrow" />
+				</div>
+				<div class='sub_text'>
+					<h4>Sem Egestas</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+				</div>
+			</div> 
+		</div>
+		<div class="row">
+			<div class="col-md-12 buy_div">
+				<div class='text'>
+					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elite.</p>
+				</div>
+				<div class="buy_btn_div">
+					<button>Buy Now</button>
+				</div>
+			</div>
+		</div>
+		<div class="row portfolio_row">
+			<div class="col-md-12 portfolio">
+				<div class="port_head">
+					<h4>Portfolio</h4>
+					<a href="#">View All Projects &rarr;</a>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6 port_sub">
+				<img src="assets/dist/img/modernize/portfolio1.png" alt="dancing woman" />
+				<div class="sub_text">
+					<h4 class="text-center">Built-in ShortCode</h4>
+					<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation.</p>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6 port_sub">
+				<img src="assets/dist/img/modernize/portfolio2.png" alt="school bus" />
+				<div class="sub_text">
+					<h4 class="text-center">New Page Builder</h4>
+					<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation.</p>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6 port_sub">
+				<img src="assets/dist/img/modernize/portfolio3.png" alt="man and woman" />
+				<div class="sub_text">
+					<h4 class="text-center">Access Elements Color</h4>
+					<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6 port_sub">
+				<img src="assets/dist/img/modernize/portfolio4.png" alt="city skyline" />
+				<div class="sub_text">
+					<h4 class="text-center">3 Custom Post Types</h4>
+					<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+			<div class="col-md-12 footer">
+				<a href="#">Back To Top &uarr;</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
