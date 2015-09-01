@@ -151,9 +151,16 @@
                         <img src="/assets/dist/img/portfolio/js_balls.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="/assets/dist/img/portfolio/modernize.png" class="img-responsive" alt="">
+                    </a>
                 </div>
-
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
@@ -164,9 +171,6 @@
                         <img src="/assets/dist/img/portfolio/frogger.png" class="img-responsive" alt="">
                     </a>
                 </div>
-
-
-
             </div>
         </div>
     </section>
@@ -352,7 +356,7 @@
                             </p>
                             <ul class="list-inline item-details">
                                 <li>Technologies Used:
-                                    <strong>Giphy API | Node/Express | EJS | Packery | jQuery | Bootstrap
+                                    <strong>Giphy API | Google Link Shortener API | Node/Express | EJS | Packery | jQuery | Bootstrap
                                     </strong>
                                 </li>
           <!--                       <li>Date:
@@ -585,6 +589,41 @@
         </div>
     </div>
 
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Modernize - Responsive</h2>
+                            <hr class="star-primary">
+                            <img src="/assets/dist/img/portfolio/modernize.png" class="img-responsive img-centered" alt="">
+                            <p>
+                                Responsive Site. Check it out on mobile!
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>Technologies Used:
+                                    <strong>Bootstrap | SASS
+                                    </strong>
+                                </li>
+                                <li>Project Link:
+                                    <strong><a href="/modernize">Modernize</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
